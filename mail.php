@@ -15,7 +15,7 @@ class Mail {
         //SMTP Server settings
         $mail->isSMTP(); 
                                                   
-        $mail->Host       = '';                     
+        $mail->Host       = "";                     
         $mail->SMTPAuth   = true;                                   
         $mail->Username   = '' ;                     
         $mail->Password   = '';                    
